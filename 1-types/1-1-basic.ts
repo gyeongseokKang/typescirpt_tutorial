@@ -1,5 +1,3 @@
-import { kMaxLength } from "buffer";
-
 {
   //number type
   const num: number = 12;
