@@ -1,6 +1,7 @@
-# typescirpt_tutorial
+# Typescirpt_tutorial
+#with Dream Coding  #Elle  #OOP
 
-4강
+## 4강
 * class static keyword: class level로 선언하는 것. 같은 클래스마다 중복되는 값, 함수일 경우 class 레벨로 선언하여 관리할수 있음 ( 메모리 이득. 사용적 편이성
 	- class level로 관리됨으로 class instance 마다 생성하지 않아 메모리를 아낄수 있다.
 	- ex) Math.PI. Math 객체를 선언하지 않았는데도 바로 달라붙어서 사용가능함.
