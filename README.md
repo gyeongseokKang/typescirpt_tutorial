@@ -48,3 +48,9 @@ feature -> roadmap -> must have, good to have, nice to have ->
   - 해당 코드와 같이 document가 있을것을 확실할때 type Assertion를 사용한다. 원래 querySelector는 null, HTMLElement를 반환할수 있다.
 - html 창에서 ```div.test```를 입력하면 -> ```<div class="test"></div>```로 변환된다. 
 - ```(div.test)*3```를 하면 3개가 나온다.
+- innerHTML로 Element를 만드는 것은 좋은데, 추가적인 string를 그대로 떄려박으면 위험하다. 따라서 별도로 원하는 Element만 querySelect로 가져와서 추가작업을 진행한다.
+- 배열의 마지막 요소를 가져오는 방법
+  - ```array[array.length -1]``` 
+  - ```array.slice(-1)[0]``` -> 이 방법의 장점은 배열의 메소드 체인으로 가능하다는 점이다.
+    - 예를 들어 split를 한 경우 ```str.split("/")[str.split("/").length -1]``` 처럼 안에서 한번도 써야한다는 단점이 있다.
+    - 근데 아래 방법을 사용할 경우 ```str.split("/").slice(-1)[0]``` 로 가져올 수 있다.
