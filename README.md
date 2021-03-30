@@ -54,5 +54,3 @@ feature -> roadmap -> must have, good to have, nice to have ->
   - ```array.slice(-1)[0]``` -> 이 방법의 장점은 배열의 메소드 체인으로 가능하다는 점이다.
     - 예를 들어 split를 한 경우 ```str.split("/")[str.split("/").length -1]``` 처럼 안에서 한번도 써야한다는 단점이 있다.
     - 근데 아래 방법을 사용할 경우 ```str.split("/").slice(-1)[0]``` 로 가져올 수 있다.
-
-    testtestsss
