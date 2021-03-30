@@ -55,4 +55,4 @@ feature -> roadmap -> must have, good to have, nice to have ->
     - 예를 들어 split를 한 경우 ```str.split("/")[str.split("/").length -1]``` 처럼 안에서 한번도 써야한다는 단점이 있다.
     - 근데 아래 방법을 사용할 경우 ```str.split("/").slice(-1)[0]``` 로 가져올 수 있다.
 
-    test
+    testtest
