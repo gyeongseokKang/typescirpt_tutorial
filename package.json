@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "ts-node": "^9.1.1",
+    "tsc-watch": "^4.2.9"
+  },
+  "devDependencies": {
     "typescript": "^4.2.3"
   }
 }
